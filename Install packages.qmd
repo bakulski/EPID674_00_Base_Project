@@ -1,0 +1,124 @@
+---
+title: "Install Packages for Base Project"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+## General code for all sessions
+
+
+```{r}
+#| label: install
+#| echo: true
+
+options(repos="https://cran.rstudio.com")
+
+
+
+# General markdown, tidyverse
+install.packages("markdown")
+install.packages("rmarkdown")
+
+install.packages("knitr")
+
+install.packages("tidyverse")
+
+
+```
+
+## Specific code for sections
+
+You can add options to executable code like this
+
+```{r}
+#| label: install-packages-specific
+#| echo: true
+
+# Unfiled
+
+install.packages("haven")
+
+install.packages("epiDisplay")
+
+install.packages("gmodels")
+
+install.packages("foreign")
+
+install.packages("Hmisc")
+
+install.packages("car")
+
+install.packages("corrplot")
+
+install.packages("GGally")
+
+install.packages("vioplot")
+
+install.packages("forestplot")
+
+install.packages("foreign")
+
+install.packages("gt")
+
+install.packages("expss")
+
+# Datasets session 2
+
+install.packages("here")
+
+install.packages("nhanesA")
+
+install.packages("sjlabelled")
+
+# Descriptive statistics session 3
+
+install.packages("gtsummary")
+
+install.packages("flextable")
+
+# Graphing session 4
+
+install.packages("ggplot2")
+
+install.packages("ggpubr")
+
+install.packages("vidiris")
+
+install.packages("RColorBrewer")
+
+# Hypothesis testing session 5
+
+install.packages("infer")
+
+install.packages("ggcorrplot")
+
+# Regression packages? session 6
+
+# Advanced session 7
+
+install.packages("survey")
+
+install.packages("rmeta")
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+## Check install success
+
+```{r}
+#| label: check-install-success
+
+library(rmarkdown)
+library(knitr)
+library(tidyverse)
+
+```
