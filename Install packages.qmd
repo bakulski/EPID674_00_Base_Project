@@ -30,6 +30,7 @@ install.packages("rmarkdown")
 install.packages("knitr")
 
 install.packages("tidyverse")
+install.packages("shiny")
 
 
 ```
