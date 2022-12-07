@@ -103,6 +103,10 @@ install.packages("ggcorrplot")
 
 # Regression packages? session 6
 
+install.packages("ggpubr")
+
+install.packages("broom")
+
 # Advanced session 7
 
 install.packages("survey")
