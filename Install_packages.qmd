@@ -1,19 +1,12 @@
 ---
-title: "Install Packages for Base Project"
+title: "EPID674 Epidemiologic Data Analysis in R"
+subtitle: "Install Packages for Base Project"
 format: html
-editor: visual
+editor: source
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ## General code for all sessions
-
 
 ```{r}
 #| label: install
@@ -22,22 +15,22 @@ When you click the **Render** button a document will be generated that includes 
 options(repos="https://cran.rstudio.com")
 
 
-
 # General markdown, tidyverse
+
 install.packages("markdown")
+
 install.packages("rmarkdown")
 
 install.packages("knitr")
 
 install.packages("tidyverse")
-install.packages("shiny")
 
+install.packages("shiny")
 
 ```
 
-## Specific code for sections
+## Specific code for class sections
 
-You can add options to executable code like this
 
 ```{r}
 #| label: install-packages-specific
@@ -79,13 +72,7 @@ install.packages("nhanesA")
 
 install.packages("sjlabelled")
 
-# Descriptive statistics session 3
-
-install.packages("gtsummary")
-
-install.packages("flextable")
-
-# Graphing session 4
+# Graphing session 3
 
 install.packages("ggplot2")
 
@@ -94,6 +81,12 @@ install.packages("ggpubr")
 install.packages("vidiris")
 
 install.packages("RColorBrewer")
+
+# Descriptive statistics session 4
+
+install.packages("gtsummary")
+
+install.packages("flextable")
 
 # Hypothesis testing session 5
 
@@ -115,7 +108,7 @@ install.packages("rmeta")
 
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
 
 ## Check install success
 
