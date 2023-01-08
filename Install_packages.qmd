@@ -72,6 +72,8 @@ install.packages("nhanesA")
 
 install.packages("sjlabelled")
 
+install.packages("readxl")
+
 # Graphing session 3
 
 install.packages("ggplot2")
