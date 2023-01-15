@@ -79,6 +79,13 @@ install.packages("readxl")
 install.packages("ggplot2")
 
 install.packages("ggpubr")
+# Error with ggpubr, installing dependencies one by one
+install.packages("RcppEigen")
+install.packages("lme4")
+install.packages("pbkrtest")
+install.packages("car")
+install.packages("rstatix")
+install.packages("ggpubr")
 
 install.packages("vidiris")
 
